@@ -22,10 +22,10 @@ def test_calendario():
     calendario.click()
 
     time.sleep(2)
-    driver.find_element(By.XPATH, '//*[@class = "ui-state-default" and text() = "14"]').click()
+    driver.find_element(By.XPATH, '//*[@class = "test_ui-state-default" and text() = "14"]').click()
     time.sleep(2)
     driver.find_element(By.XPATH, '//*[@id="datepicker"]').click()
-    driver.find_element(By.XPATH, '//*[@class = "ui-state-default" and text() = "23"]').click()
+    driver.find_element(By.XPATH, '//*[@class = "test_ui-state-default" and text() = "23"]').click()
     time.sleep(2)
 
 # Para que imprima en consola el contenido y comprobar con pytest -s si lo hace correctamente:

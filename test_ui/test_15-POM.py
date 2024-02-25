@@ -2,7 +2,7 @@
 
 # 0- La organización de carpetas del POM se muestra en una imagen adjunta.
 
-# 1- Es un patrón de diseño, popularmente utilizado en automatización de priebas (Selenium).
+# 1- Es un patrón de diseño, popularmente utilizado en automatización de pruebas (Selenium).
 
 # 2- Es una forma de separar el código de la interfaz de usuario (IU) de la lógica de la aplicación.
 
@@ -127,7 +127,6 @@ class HomePage:  # aquí irían todos los elementos de la página.
 
 
 # También definimos funciones para realizar acciones con esos elementos.
-
 # Como localizarlo:
               
     def get_wikipedia_Search(self):

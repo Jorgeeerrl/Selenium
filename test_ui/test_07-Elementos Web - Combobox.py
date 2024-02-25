@@ -1,7 +1,7 @@
 ############################## ELEMENTOS WEB - COMBOBOX ############################
 # Para menús desplegables. Tienen una id y dentro cada opción tiene un value y un texto.
 # Podemos o hacer que haga click en el desplegable y luego en la opción deseada o podemos utilizar "select".
-# Para ello hay que importar el paquete support.ui que tiene muchas opciones para seleccionar este tipo de elementos.
+# Para ello hay que importar el paquete support.test_ui que tiene muchas opciones para seleccionar este tipo de elementos.
 
 from pytest import mark
 from selenium import webdriver
