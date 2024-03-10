@@ -30,7 +30,7 @@ def test_element_by_xpath():
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get("https://testautomationpractice.blogspot.com/")
-    web_element = driver.find_element(By.XPATH, '//*[@id="email"]') # Se ponene comillas simples para que no interfieran con las del interior.
+    web_element = driver.find_element(By.XPATH, '//*[@id="email"]') # Se ponen comillas simples para que no interfieran con las del interior.
     web_element.send_keys("jorgeeerrl")
 
     time.sleep(4)

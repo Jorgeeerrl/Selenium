@@ -35,7 +35,8 @@
 
 import time
 from selenium.webdriver.common.by import By
-
+from pytest import mark
+@mark.notest
 base_url = "https://testautomationpractice.blogspot.com/"
 
 
